@@ -6758,3 +6758,70 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+@media (min-width: 0px) and (max-width: 600px){
+.new-carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 2px;
+  left: 1%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  color: #fff;
+  text-align: left;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  font-size:0.7em;
+}}
+
+@media (min-width: 600px) and (max-width: 1900px){
+.new-carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 2px;
+  left: 1%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  color: #fff;
+  text-align: left;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  font-size:1.1em;
+}}
+
+
+@media (min-width: 0px) and (max-width: 600px){
+.new-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 2px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  font-size:0.9em;
+  font-style: italic;
+}}
+
+
+
+
+@media (min-width: 600px) and (max-width: 1900px){
+.new-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 2px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  font-size:1em;
+  font-style: italic;
+}}
+

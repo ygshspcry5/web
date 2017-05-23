@@ -1,13 +1,11 @@
 
 <head>
+
+
   <title>Bootstrap Example</title>
 
   <link rel="stylesheet" href="css/bootstrap.css">
   
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
 
   <script src="js/jquery_library.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -15,7 +13,9 @@ img {
 <body>
 
 
-
+<div class="row">
+<div class="col-sm-4">Under construction</div>
+<div class="col-sm-8">
 
 <div class="container-fluid">
 	<!-- slider -->
@@ -30,25 +30,27 @@ img {
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="resources/images/4th batch IOM topper.jpg" alt="..." max-height="100%">
-      <div class="carousel-caption">
-        ...
+      <img src="resources/images/4th batch IOM topper.jpg" alt="..." style="height:80%;width:100%">
+      <div class="new-carousel-caption">
+      sdfsdfsdf
       </div>
     </div>
     <div class="item">
-      <img src="resources/images/3 batch, SOS pokhara Janabi giri INdian embassy entrance topper mbbs.png" alt="..." max-height="100%">
-      <div class="carousel-caption">
+      <img src="resources/images/3 batch, SOS pokhara Janabi giri INdian embassy entrance topper mbbs.png" alt="..." style="height:80%;width:100%">
+      <div class="new-carousel-caption">
        ejkwhrfkdjf
       </div>
     </div>
 	
 	 <div class="item">
-      <img src="resources/images/3 batch, SOS pokhara Janabi giri INdian embassy entrance topper mbbs.png" alt="..." max-height="100%">
-      <div class="carousel-caption">
-        ...
+      <img src="resources/images/3 batch, SOS pokhara Janabi giri INdian embassy entrance topper mbbs.png" alt="..."  style="height:80%;width:100%">
+      <div class="new-carousel-caption">
+     sdfsdfsdf
       </div>
-    </div>
-    ...
+	   </div>
+    <div class="new-caption">
+    memories
+	</div>
   </div>
 
   <!-- Controls -->
@@ -63,6 +65,52 @@ img {
 </div>
 <!-- slider end-->
 </div>
+</div>
+
+
+</div>
+
+<div class="container-fluid">
+
+<div class="jumbotron">
+
+  <h1>About Us</h1>
+  <br>
+ 
+  <p>&nbsp &nbsp&nbsp   PPM is the most reknown institute in pre engineering and medical science. 
+	<script>
+var y= "more...";
+</script>
+
+
+<p id="myDIV">
+&nbsp  &nbsp&nbsp  This is further description about pokhara pre medical and engineering institute.
+</p>
+
+
+<div style="font-style:bold;font-size:2.7em;color:green" id="try" onclick="myFunction()"></div>
+
+
+<script>
+function myFunction() {
+	
+    var x = document.getElementById('myDIV');
+    document.getElementById("try").innerHTML = y;
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+        y="more..."
+    } else {
+        x.style.display = 'none';
+        y="less &#x2191";
+    }
+}
+myFunction();
+</script>
+</div>
+</div>
+
+
+
 
 </body>
 </html>
